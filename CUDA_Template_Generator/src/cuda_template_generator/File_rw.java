@@ -93,7 +93,7 @@ public class File_rw {
     String out="";
     if (ker.manual_block) {
     out+="thread=" +ker.thread +";\n" + "block=" + ker.block +";\n";
-    out+="kernel<<< block,thread >>>("+k_arg(array,"gpu")+");\n";
+    out+="kernel<<< block,thread >>>("+k_arg2(array,"gpu")+");\n";
     } else {
     out+="block_thread2(block,size,thread);\n";
     out+="kernel<<< block,thread >>>("+k_arg2(array,"gpu")+");\n"; }
