@@ -1,0 +1,16 @@
+#summary One-sentence summary of this page.
+#labels Phase-Support
+
+= This page will describe bugs in this application =
+
+Add your content here.
+
+
+= Bugs =
+
+
+  * Under Memory optimization tab, when "auto" is disabled for 1 Array, it also disables for all arrays in the list. But code will be generated correctly. 
+
+= Further Improvement plans =
+  * Under Block & Thread compute tab when Block & Thread parameters are defined incorrectly - shows only 1 error.
+Plan is to describe error with more information. 
