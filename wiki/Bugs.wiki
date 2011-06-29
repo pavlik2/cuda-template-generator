@@ -14,3 +14,5 @@ CUDA template Generator
 = Further Improvement plans =
   * Under Block & Thread compute tab when Block & Thread parameters are defined incorrectly - shows only 1 error.
 Plan is to describe error with more information. 
+
+If you find any other bug. You may describe it  in comment. 
